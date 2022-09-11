@@ -1,0 +1,38 @@
+{
+  "name": "rollout-node-jwt",
+  "version": "1.0.0",
+  "description": "Rollout nodejs jwt generator",
+  "engines": {
+    "node": ">=12.15.3"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabharch/rollout-node-jwt.git"
+  },
+  "author": "Saurabh Kashyap - <saurabh@raindigi.com>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/saurabharch/rollout-node-jwt/issues"
+  },
+  "homepage": "https://github.com/saurabharch/rollout-node-jwt#readme",
+  "devDependencies": {
+    "jsonwebtoken": "^8.3.0"
+  },
+  "dependencies": {
+    "actions-on-google": "^2.4.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.4",
+    "dialogflow": "^0.10.2",
+    "dialogflow-fulfillment": "^0.6.1",
+    "dotenv": "^16.0.2",
+    "express": "^4.16.4",
+    "multer": "^1.4.2",
+    "request": "^2.88.0",
+    "uuid": "^3.3.2"
+  }
+}
