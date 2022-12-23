@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/saurabharch/rollout-node-jwt#readme",
   "devDependencies": {
-    "jsonwebtoken": "^8.3.0"
+    "jsonwebtoken": "^9.0.0"
   },
   "dependencies": {
     "actions-on-google": "^2.4.1",
